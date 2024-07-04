@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .attribution { 
+      justify-content: center;
+      font-size: 15px; 
+      text-align: center;
+      margin-top: 3rem; 
+    }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+    body{
+      background-color: black;
+    }
+    li{
+      list-style: none;
+    }
+    body{
+      justify-content: center;
+      background-color:   hsl(0, 0%, 8%);
+      height: 650px;
+      width:350px;
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+    }
+    body img{
+      border-radius: 50%;
+    }
+    .content {
+      left: 200px;
+      width: 400px;
+      height: 650px;
+      padding:2rem 2rem 3rem 2rem ;
+      margin: 4rem 10rem 4rem 35rem;
+      background-color: hsl(0, 0%, 12%);
+      border-radius: 5px;
+    }
+    h3{
+      margin-top: 1rem;
+      margin-bottom:1rem;
+    }
+    p{
+      margin-top: 1rem;
+    }
+    .link{
+      margin-top:2rem;
+    }
+    .link ul li{
+      margin: 1.5rem;
+      padding:0.8rem 0.8rem 0.8rem 0.8rem ;
+      border-radius: 8px;
+      background: rgba(128, 128, 128,0.2);
+      
+    }
+    .link ul li a{
+        color: white;
+    }
+    .link ul li a:hover{
+        color: black;
+    }
+    .link ul li:hover{
+      background-color:rgb(177,236,49);
+      color: black;
+    }
+    @media(max-width: 1024px) {
+      .main{
+        margin: 4rem 10rem 4rem 10rem;
+      }
+    }
+    @media(min-width: 375px) {
+      .main{
+        margin: 2rem 2rem 2rem 3.5rem; 
+        width: 250px;   
+      }
+    }
+
+  </style>
+</head>
+<body>
+ <div class="content">
+  <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall">
+   <h3>Jessica Randall</h3>
+   <small style="color:rgb(177,236,49);">London, United Kingdom</small>
+   <p> "Front-end developer and avid reader."</p>
+    <div class="link">
+      <ul>
+        <li><a href="https://github.com/DivyapriyaR04" style="text-decoration:none;">GitHub</a></li>
+        <li><a href="" style="text-decoration:none;">Frontend Mentor</a></li>
+        <li><a href="https://www.linkedin.com/in/divyapriya-r/" style="text-decoration:none;">LinkedIn</a></li>
+        <li><a href="#" style="text-decoration:none;">Twitter</a></li>
+        <li><a href="#" style="text-decoration:none;">Instagram</a></li>
+      </ul>   
+    </div>
+ </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Divyapriya</a>.
+  </div>
+</body>
+</html>
